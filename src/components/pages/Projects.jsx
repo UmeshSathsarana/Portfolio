@@ -47,8 +47,8 @@ function Projects() {
         "this is a personal portfolio website built using React, showcasing my projects, skills, and experience in web development. It features a modern design with smooth animations and responsive layout to provide an engaging user experience across all devices.",
       image: img23,
       tech: ["React", "Tailwind CSS", "Framer Motion"],
-      github: "",
-      demo: "#",
+      github:"https://github.com/UmeshSathsarana/Portfolio",
+      demo: "https://umeshsathsarana.github.io/Portfolio/",
     },
 
     
