@@ -34,7 +34,7 @@ function Services() {
   ];
 
   return (
-    <section id="services" className="relative min-h-screen bg-black text-white py-20 px-6 overflow-hidden scroll-mt-28">
+    <section id="services" className="relative min-h-screen bg-black text-white py-20 px-4 md:px-6 overflow-hidden scroll-mt-16">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 leading-tight">

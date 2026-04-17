@@ -41,7 +41,7 @@ function Skills() {
   ];
 
   return (
-    <div id="Skills" className="relative min-h-screen bg-black text-white py-20 px-6 overflow-hidden">
+    <div id="Skills" className="relative min-h-screen bg-black text-white py-20 px-4 md:px-6 overflow-hidden">
 
       {/* 🔥 Animated Glow Background */}
       <div className="absolute top-0 left-0 w-72 h-72 bg-pink-500 rounded-full blur-3xl opacity-20 animate-pulse"></div>

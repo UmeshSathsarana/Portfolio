@@ -55,10 +55,10 @@ function Projects() {
   ];
 
   return (
-    <div id="projects" className="min-h-screen bg-black text-white py-20 px-6 scroll-mt-28">
+    <div id="projects" className="min-h-screen bg-black text-white py-16 md:py-20 px-4 sm:px-6 scroll-mt-24">
 
       {/* Title */}
-      <div className="text-center mb-16">
+      <div className="text-center mb-12 md:mb-16">
         <h1 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 leading-tight">
           Featured Projects
         </h1>
@@ -71,7 +71,7 @@ function Projects() {
       </div>
 
       {/* Cards */}
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto">
+      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 md:gap-8 max-w-7xl mx-auto w-full">
         {projects.map((project, index) => (
           <div
             key={index}

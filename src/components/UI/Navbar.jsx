@@ -1,4 +1,4 @@
-﻿import { useState } from "react";
+﻿﻿import { useState } from "react";
 
 const navLinks = [
   { label: "Home", href: "#home" },
@@ -47,13 +47,19 @@ function Navbar() {
       </div>
 
       {isOpen && (
-        <div className="md:hidden bg-black/80 backdrop-blur-lg text-white text-center py-6 space-y-4">
+        <div className="md:hidden bg-black/90 backdrop-blur-lg text-white text-center py-6 space-y-4 relative" onClick={() => setIsOpen(false)}>
+          <button
+            onClick={() => setIsOpen(false)}
+            className="absolute top-2 right-4 text-white text-2xl hover:text-pink-400"
+          >
+            ×
+          </button>
           {navLinks.map((item) => (
             <a
               key={item.href}
               href={item.href}
-              className="block text-lg font-medium hover:text-pink-400 transition duration-300"
-              onClick={() => setIsOpen(false)}
+              className="block text-lg font-medium hover:text-pink-400 transition duration-300 py-2"
+              onClick={(e) => { e.stopPropagation(); setIsOpen(false); }}
             >
               {item.label}
             </a>

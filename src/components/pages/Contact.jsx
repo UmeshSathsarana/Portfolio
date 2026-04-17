@@ -2,7 +2,7 @@
 
 export default function Contact() {
   return (
-    <section id="contact" className="relative min-h-screen bg-black flex items-center justify-center px-6 overflow-hidden scroll-mt-28">
+    <section id="contact" className="relative min-h-screen bg-black flex items-center justify-center px-4 md:px-6 overflow-hidden scroll-mt-16">
 
       {/* 🔥 Soft Glow Background */}
       <div className="absolute top-[-100px] left-[-100px] w-96 h-96 bg-pink-500/20 rounded-full blur-3xl"></div>
@@ -12,7 +12,7 @@ export default function Contact() {
 
         {/* LEFT SIDE */}
         <div>
-          <h1 className="text-6xl md:text-7xl font-extrabold text-white leading-tight">
+          <h1 className="text-3xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight">
             Let’s{" "}
             <span className="bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">
               Connect

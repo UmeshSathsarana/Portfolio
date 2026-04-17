@@ -34,7 +34,7 @@ function ProfessionalJourney() {
   ];
 
   return (
-    <div id="journey" className="min-h-screen bg-black text-white py-20 px-6 scroll-mt-28">
+    <div id="journey" className="min-h-screen bg-black text-white py-20 px-4 md:px-6 scroll-mt-16">
       
       {/* Heading */}
       <h1 className="text-4xl md:text-5xl font-bold text-center mb-20 bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 bg-clip-text text-transparent">

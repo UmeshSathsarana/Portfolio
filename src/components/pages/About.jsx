@@ -4,7 +4,7 @@ import cvFile from "../../assets/Umesh-CV.pdf";
 
 function About() {
   return (
-    <div id="about" className="min-h-screen bg-black text-white flex items-center justify-center px-6 py-20 scroll-mt-28">
+    <div id="about" className="min-h-screen bg-black text-white flex items-center justify-center px-4 md:px-6 py-20 scroll-mt-16">
 
       <div className="max-w-6xl w-full grid md:grid-cols-2 gap-16 items-center">
 
@@ -18,7 +18,7 @@ function About() {
             <img
               src={profileImg}
               alt="Umesh"
-              className="relative w-72 h-72 object-cover rounded-3xl border-4 border-pink-500 shadow-2xl transform group-hover:scale-105 transition duration-500"
+              className="relative w-48 h-48 md:w-72 md:h-72 object-cover rounded-3xl border-4 border-pink-500 shadow-2xl transform group-hover:scale-105 transition duration-500"
             />
 
           </div>
@@ -28,7 +28,7 @@ function About() {
         <div>
 
           {/* Title */}
-          <h2 className="text-4xl md:text-5xl font-extrabold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-pink-500 to-purple-500">
+          <h2 className="text-3xl md:text-5xl font-extrabold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-pink-500 to-purple-500">
             About Me
           </h2>
 

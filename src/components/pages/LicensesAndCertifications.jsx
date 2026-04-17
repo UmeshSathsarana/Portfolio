@@ -37,7 +37,7 @@ function LicensesAndCertifications() {
   ];
 
   return (
-    <div id="licenses" className="relative min-h-screen bg-black text-white py-20 px-6 overflow-hidden scroll-mt-28">
+    <div id="licenses" className="relative min-h-screen bg-black text-white py-20 px-4 md:px-6 overflow-hidden scroll-mt-16">
 
       {/* 🔥 Animated Glow Background */}
       <div className="absolute top-0 left-0 w-72 h-72 bg-pink-500 rounded-full blur-3xl opacity-20 animate-pulse"></div>
