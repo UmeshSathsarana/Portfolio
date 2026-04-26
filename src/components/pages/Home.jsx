@@ -43,7 +43,7 @@ function Home() {
         autoPlay
         loop
         muted
-        className="absolute w-full h-full object-cover"
+        className="absolute inset-0 min-w-full min-h-full object-cover"
       >
         <source src={bgVideo} type="video/mp4" />
       </video>
@@ -54,13 +54,13 @@ function Home() {
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center">
 
         {/* Typing Text */}
-        <h1 className="text-2xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 drop-shadow-lg">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 drop-shadow-lg">
           {text}
           <span className="text-white animate-pulse">|</span>
         </h1>
 
         {/* Subtitle */}
-        <h3 className="mt-6 text-base md:text-2xl text-white tracking-widest font-semibold">
+        <h3 className="mt-6 text-lg sm:text-xl md:text-2xl text-white tracking-widest font-semibold">
           Umesh Sathsarana | Software Engineer
         </h3>
 

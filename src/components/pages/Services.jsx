@@ -37,7 +37,7 @@ function Services() {
     <section id="services" className="relative min-h-screen bg-black text-white py-20 px-4 md:px-6 overflow-hidden scroll-mt-16">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 leading-tight">
             Services
           </h1>
           <div className="w-28 h-1 mx-auto mt-4 bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 rounded-full"></div>

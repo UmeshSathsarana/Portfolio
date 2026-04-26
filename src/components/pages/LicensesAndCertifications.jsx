@@ -44,7 +44,7 @@ function LicensesAndCertifications() {
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-purple-600 rounded-full blur-3xl opacity-20 animate-pulse"></div>
 
       {/* Title */}
-      <h1 className="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 bg-clip-text text-transparent">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 bg-clip-text text-transparent">
         Licenses & Certifications
       </h1>
 

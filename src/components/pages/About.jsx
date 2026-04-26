@@ -28,7 +28,7 @@ function About() {
         <div>
 
           {/* Title */}
-          <h2 className="text-3xl md:text-5xl font-extrabold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-pink-500 to-purple-500">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-pink-500 to-purple-500">
             About Me
           </h2>
 

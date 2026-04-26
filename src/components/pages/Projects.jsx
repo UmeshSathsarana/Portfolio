@@ -59,7 +59,7 @@ function Projects() {
 
       {/* Title */}
       <div className="text-center mb-12 md:mb-16">
-        <h1 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 leading-tight">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 leading-tight">
           Featured Projects
         </h1>
 
@@ -79,7 +79,7 @@ function Projects() {
             hover:border-pink-500/40 transition duration-500"
           >
             {/* Image */}
-            <div className="h-56 overflow-hidden relative">
+            <div className="h-48 sm:h-56 overflow-hidden relative">
               <img
                 src={project.image}
                 alt={project.title}

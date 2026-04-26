@@ -12,7 +12,7 @@ export default function Contact() {
 
         {/* LEFT SIDE */}
         <div>
-          <h1 className="text-3xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight">
             Let’s{" "}
             <span className="bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">
               Connect
