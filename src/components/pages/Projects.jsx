@@ -27,7 +27,7 @@ function Projects() {
       title: "Smart Construction System",
       description:
         "A comprehensive web-based construction management platform designed to streamline construction project operations from planning through completion. This system provides end-to-end management capabilities for construction companies, including project management, resource allocation, worker management, and financial tracking",
-      image: "",
+      image: null,
       tech: ["React", "Node js", "Express js", "Mongo DB"],
       github: "https://github.com/UmeshSathsarana/Constriction-Management-system",
       demo: "#",

@@ -43,7 +43,8 @@ function Home() {
         autoPlay
         loop
         muted
-        className="absolute inset-0 min-w-full min-h-full object-cover"
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
       >
         <source src={bgVideo} type="video/mp4" />
       </video>

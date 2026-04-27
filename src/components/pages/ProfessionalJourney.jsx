@@ -41,10 +41,10 @@ function ProfessionalJourney() {
         Professional Journey
       </h1>
 
-      <div className="relative max-w-4xl mx-auto">
+      <div className="relative max-w-4xl mx-auto pl-8 md:pl-0">
         
         {/* Vertical Line */}
-        <div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 h-full w-1 bg-gradient-to-b from-red-500 via-pink-500 to-purple-500"></div>
+        <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 h-full w-1 bg-gradient-to-b from-red-500 via-pink-500 to-purple-500"></div>
 
         {journey.map((item, index) => (
           <Motion.div
@@ -60,16 +60,16 @@ function ProfessionalJourney() {
             }`}
           >
             {/* Circle */}
-            <div className="absolute left-4 md:left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 border-4 border-black"></div>
+            <div className="absolute left-[-1.5rem] md:left-1/2 transform md:-translate-x-1/2 w-6 h-6 rounded-full bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 border-4 border-black"></div>
 
             {/* Card */}
-            <div className="bg-white/5 border border-white/10 backdrop-blur-lg rounded-2xl p-8 w-full md:w-5/12 ml-12 md:ml-0 hover:scale-105 transition duration-500 shadow-xl">
+            <div className="bg-white/5 border border-white/10 backdrop-blur-lg rounded-2xl p-6 md:p-8 w-full md:w-5/12 ml-4 md:ml-0 hover:scale-105 transition duration-500 shadow-xl">
               
               <span className="text-sm text-pink-400 font-semibold">
                 {item.year}
               </span>
 
-              <h3 className="text-2xl font-bold mt-2 break-words">
+              <h3 className="text-xl md:text-2xl font-bold mt-2 break-words">
                 {item.title}
               </h3>
 
