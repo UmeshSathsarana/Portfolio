@@ -1,6 +1,6 @@
 
 import profileImg from "../../assets/profile.jpg";
-import cvFile from "../../assets/Umesh-CV.pdf";
+import cvFile from "../../assets/Umesh Sathsarana CV.pdf";
 
 function About() {
   return (
