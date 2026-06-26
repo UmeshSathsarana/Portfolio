@@ -11,21 +11,21 @@ function ProfessionalJourney() {
         "",
     },
     {
-      year: "2019 - Present",
+      year: "2019",
       title: "Advanced Information Technology",
       place: "Siba Campus",
       description:
         "",
     },
     {
-      year: "2021 - Present",
+      year: "2021",
       title: "GCE A/L Examination",
       place: "Swarnajothi National College, Kiribathkumbura",
       description:
         "Technology stream - Engineering Technology",
     },
         {
-      year: "2018 - Present",
+      year: "2018",
       title: "GCE O/L Examination",
       place: "Sri Dheerananda College - Pilimathalawa",
       description:
