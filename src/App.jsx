@@ -9,7 +9,6 @@ import Services from './components/pages/Services';
 import Contact from './components/pages/Contact';
 import About from './components/pages/About';
 import ProfessionalJourney from './components/pages/ProfessionalJourney';
-import LicensesAndCertifications from './components/pages/LicensesAndCertifications';
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -26,7 +25,6 @@ const App = () => {
         <Skills />
         <Projects />
         <ProfessionalJourney />
-        <LicensesAndCertifications />
          <Services />
         <Contact />
       </div>
