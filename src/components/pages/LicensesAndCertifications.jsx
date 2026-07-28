@@ -56,7 +56,7 @@ function LicensesAndCertifications() {
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
-            className="group bg-white/5 border border-white/10 backdrop-blur-lg rounded-2xl overflow-hidden hover:scale-105 hover:shadow-2xl hover:shadow-pink-500/20 transition-all duration-500"
+            className="group bg-[#111] border border-white/10 rounded-2xl overflow-hidden hover:border-pink-500/40 hover:scale-[1.03] hover:shadow-2xl hover:shadow-pink-500/10 transition-all duration-500"
           >
             {/* Image - only show if image exists */}
             {cert.image && (
@@ -85,7 +85,7 @@ function LicensesAndCertifications() {
               </span>
 
               {/* Title */}
-              <h3 className="text-xl font-bold mt-2 mb-2 break-words">
+              <h3 className="text-xl font-bold mt-2 mb-2 group-hover:text-pink-400 transition duration-300 break-words">
                 {cert.title}
               </h3>
 

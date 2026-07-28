@@ -2,6 +2,7 @@ import img5 from "../../assets/5.jpg";
 import img4 from "../../assets/4.jpg";
 import img3 from "../../assets/3.jpg";
 import img23 from "../../assets/23.jpg";
+import { FaGithub } from "react-icons/fa";
 
 function Projects() {
   const projects = [
@@ -142,6 +143,21 @@ function Projects() {
             </div>
           </div>
         ))}
+      </div>
+
+      {/* Other Projects Button */}
+      <div className="text-center mt-12 md:mt-16">
+        <a
+          href="https://github.com/UmeshSathsarana"
+          target="_blank"
+          rel="noreferrer"
+          className="inline-flex items-center gap-2 px-8 py-3 rounded-full font-semibold border 
+          border-pink-500/40 hover:bg-gradient-to-r hover:from-red-500 hover:via-pink-500 hover:to-purple-500 
+          hover:text-white transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-pink-500/20"
+        >
+          <FaGithub className="text-xl" />
+          Other Projects
+        </a>
       </div>
     </div>
   );
