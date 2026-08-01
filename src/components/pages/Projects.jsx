@@ -1,19 +1,20 @@
-import img5 from "../../assets/5.jpg";
+
 import img4 from "../../assets/4.jpg";
 import img3 from "../../assets/3.jpg";
 import img23 from "../../assets/23.jpg";
+import img6 from "../../assets/dd.png";
 import { FaGithub } from "react-icons/fa";
 
 function Projects() {
   const projects = [
     {
-      title: "FitZone Fitness Center – Web Application",
+      title: "Accounting Class Web Platform (2026) — Real-world Client Project",
       description:
-        "A responsive, user-friendly web platform designed for a modern gym and fitness center.",
-      image: img5,
-      tech: ["HTML5", "CSS", "mySql"],
-      github: "https://github.com/UmeshSathsarana/GYM-web-site",
-      demo: "https://fitzone12.infinityfreeapp.com/",
+        "A responsive Next.js web application built for an accounting educational service. It features a modern UI/UX and an integrated interactive chatbot for instant student inquiries, delivered as a real-world client solution with future backend integration.",
+      image: img6,
+      tech: ["Next.js", "Tailwind CSS","HTML5", "JavaScript", "Vercel (Deployment)"],
+      github: "https://accounting-class-web-site-i4vv.vercel.app/",
+      demo: "https://accounting-class-web-site-i4vv.vercel.app/",
     },
     {
       title: "Sri Lankan Tourism – Web Application",
